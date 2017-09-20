@@ -34,7 +34,10 @@ set softtabstop=2
 set tabstop=2
 
 set background=dark
-colorscheme wolfpack
+" colorscheme wolfpack
+set termguicolors
+let ayucolor='dark'
+colorscheme ayu
 let g:airline_theme='luna'
 let g:airline_powerline_fonts = 1
 set laststatus=2
