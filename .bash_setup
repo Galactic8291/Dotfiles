@@ -1,3 +1,4 @@
+# .bashrc
 export VISUAL='vim'
 
 alias vi=vim
@@ -8,6 +9,16 @@ alias ..='cd ..'
 alias ll='ls -la'
 alias l.='ls -d .* --color=auto'
 PS1="[\u@\h \W]$ "
+
+#---------------------
+# Tiny Care Terminal
+#---------------------
+export TTC_SAY_BOX='panda'
+export TTC_REPOS='~/Projects'
+export TTC_REPOS_DEPTH=2
+export TTC_WEATHER='22192'
+export TTC_APIKEYS=false
+export TTC_TERMINAL_TITLE=false
 
 #----------------------
 # Git Aliases
@@ -39,5 +50,6 @@ alias gstl='git stash list'
 alias gstp='git stash pop'
 alias gstd='git stash drop'
 
-
 bind 'set completion-ignore-case on'
+
+export TERM='xterm-256color'
