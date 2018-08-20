@@ -10,34 +10,34 @@ set autoindent
 set autoread
 set backspace=indent,eol,start
 set ch=1
-set ffs=unix,dos,mac
-set history=150
-set ignorecase
-set list
-set ww+=<,>,h,l,[,]
 set encoding=utf-8
 set expandtab
-set showmatch
-set incsearch
+set ffs=unix,dos,mac
+set history=150
 set hlsearch
-set relativenumber
+set ignorecase
+set incsearch
 set lazyredraw
-set nowrap
+set list
 set nohlsearch
+set nowrap
 set number
 set numberwidth=1
+set relativenumber
 set shiftround
 set shiftwidth=2
+set showmatch
 set smartindent
 set smarttab
 set softtabstop=2
 set tabstop=2
+set ww+=<,>,h,l,[,]
 
 set background=dark
-" colorscheme wolfpack
-set termguicolors
-let ayucolor='dark'
-colorscheme ayu
+set term=screen-256color
+" let ayucolor='dark'
+" wolfpack ayu
+colorscheme dracula
 let g:airline_theme='luna'
 let g:airline_powerline_fonts = 1
 set laststatus=2
