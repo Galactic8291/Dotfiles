@@ -10,8 +10,9 @@ PS1="[\u@macbook \W]$ "
 #---------------------
 # Tiny Care Terminal
 #---------------------
+# TTC_REPOS = /home/ || /Users/ 
 export TTC_SAY_BOX='panda'
-export TTC_REPOS='/Users/robbie/Projects/Food-Wars,/Users/robbie/Projects'
+export TTC_REPOS='/Users/robbie/Projects'
 export TTC_REPOS_DEPTH=1
 export TTC_WEATHER='22192'
 export TTC_CELSIUS=false
@@ -40,6 +41,7 @@ alias gp='git push'
 alias gu='git pull'
 alias gr='git reset'
 alias grl='git remote'
+alias grm='git remote remove'
 alias gra='git remote add'
 alias gss='git status -s'
 alias gs='echo ""; echo "*********************************************"; echo -e "   DO NOT FORGET TO PULL BEFORE COMMITTING"; echo "*********************************************"; echo ""; git status'
