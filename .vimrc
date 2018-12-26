@@ -36,7 +36,7 @@ set ww+=<,>,h,l,[,]
 set background=dark
 set term=screen-256color
 " let ayucolor='dark'
-" wolfpack ayu
+" wolfpack ayu hydrangea nighted synthetic tokyo
 colorscheme dracula
 let g:airline_theme='luna'
 let g:airline_powerline_fonts = 1
