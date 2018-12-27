@@ -2,6 +2,8 @@
 
 Dotfiles. But why dotfiles?
 
+![alt-text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ19gAaWXa5maLjGd13ihg-laItFtXx7aqTOX6iJRKVVNJARLWa)
+
 Current Global Node Apps:
 - git-standup
 - jest
@@ -10,4 +12,32 @@ Current Global Node Apps:
 - typescript
 - vue-cli
 
-![alt-text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ19gAaWXa5maLjGd13ihg-laItFtXx7aqTOX6iJRKVVNJARLWa)
+Current Vim Packages (Pathogen):
+- ale
+- emmet
+- endwise 
+- gitbranch
+- graphql
+- html5
+- javascript
+- jsx
+- lightline
+- nerdtree
+- styled-components
+- surround
+- syntastic
+- typescript
+- vue
+
+Vim Colors:
+- allomancer
+- ayu
+- dracula
+- hydrangea
+- night-owl
+- nighted
+- nord
+- synthetic
+- tokyo-metro
+- tone
+- wolfpack
