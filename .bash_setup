@@ -12,14 +12,14 @@ alias vi=vim
 alias vsi='sudo vim'
 alias c='clear'
 alias ..='cd ..'
-PS1="[\u@macbook \W]$ "
+PS1="[\u@\h \W]$ "
 
 #---------------------
 # Tiny Care Terminal
 #---------------------
 # TTC_REPOS = /home/ || /Users/ 
 export TTC_SAY_BOX='panda'
-export TTC_REPOS='/Users/robbie/Projects'
+export TTC_REPOS='~/Projects'
 export TTC_REPOS_DEPTH=1
 export TTC_WEATHER='22192'
 export TTC_CELSIUS=false
