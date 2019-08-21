@@ -1,3 +1,4 @@
+  
 echo '>^.^<'
 execute pathogen#infect()
 
@@ -35,12 +36,23 @@ set ww+=<,>,h,l,[,]
 
 set background=dark
 set term=screen-256color
-" let ayucolor='dark'
+let ayucolor='dark'
 " wolfpack ayu hydrangea nighted synthetic tokyo
-colorscheme dracula
+colorscheme ayu
 let g:airline_theme='luna'
 let g:airline_powerline_fonts = 1
 set laststatus=2
+
+let g:lightline = {
+      \ 'colorscheme': 'one',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+      \ },
+      \ }
 
 let g:user_emmet_leader_key='<C-h>'
 let g:user_emmet_settings = {'html':{'quote_char': "'",},}
