@@ -13,9 +13,16 @@ alias ..='cd ..'
 PS1="[\u@wsl \W]$ "
 
 # PostgreSQL Commands
-alias pg_start='pg_ctl start -D /home/linuxbrew/.linuxbrew/var/postgres'
-alias pg_stop='pg_ctl stop -D /home/linuxbrew/.linuxbrew/var/postgres'
-alias pg_restart='pg_ctl restart -D /home/linuxbrew/.linuxbrew/var/postgres'
+alias pg_start='sudo service postgresql start'
+alias pg_stop='sudo service postgresql stop'
+alias pg_restart='sudo service postgresql restart'
+alias pg_status='sudo service postgresql status'
+
+# MongoDB Commands
+alias mongo_start='sudo service mongodb start'
+alias mongo_stop='sudo service mongodb stop'
+alias mongo_restart='sudo service mongodb restart'
+alias mongo_status='sudo service mongodb status'
 
 #---------------------
 # Tiny Care Terminal
@@ -62,4 +69,4 @@ alias gstd='git stash drop'
 
 bind 'set completion-ignore-case on'
 
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
